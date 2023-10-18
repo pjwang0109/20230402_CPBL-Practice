@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>表單輸入練習</title>
+    <link rel="stylesheet" type="text/css" href="./cpbl.css" />
+  </head>
+  <body>
+    <h1>表單輸入</h1>
+    <form method="">
+      <label for="name">姓名:</label>
+      <input
+        id="name"
+        type="text"
+        name="peoplename"
+        minlength="2"
+        maxlength="10"
+        placeholder="請輸入真實姓名"
+        required
+      />
+      <br />
+      <br />
+      <label for="gender">性別:</label>
+      <select id="gender" name="gender" required>
+        <option value="male">boy</option>
+        <option value="male">girl</option>
+      </select>
+      <br />
+      <br />
+      <labal for="age">年齡:</labal>
+      <input id="age" name="peopleage" type="number" min="18" max="120" />
+      <br />
+      <br />
+      <label for="account">帳號:</label>
+      <input
+        id="account"
+        name="peopleaccount"
+        type="text"
+        min="1"
+        max="16"
+        reqrired
+      />
+      <br />
+      <br />
+      <label for="password">密碼:</label>
+      <input
+        id="password"
+        name="password"
+        type="password"
+        min="8"
+        max="20"
+        reqrired
+      />
+      <br />
+      <br />
+      <label for="E-mail">E-mail:</label>
+      <input id="E-mail" name="E-mail" type="text" />
+      <br />
+      <br />
+      <label for="file">檔案:</label>
+      <input id="file" name="file" type="file" />
+      <br />
+      <br />
+      <input id="paper" name="paper" type="checkbox" value="paper" checked />
+      <label for="paper">訂閱電子報</label>
+      <br />
+      <br />
+      <input id="team" name="team" type="radio" value="lion" />
+      <label for="team">統一獅</label>
+      <br />
+      <input id="team" name="team" type="radio" value="dan" checked />
+      <label for="team">味全龍</label>
+      <br />
+      <input id="team" name="team" type="radio" value="rakuten" />
+      <label for="team">樂天桃園</label>
+      <br />
+      <br />
+      <label for="date">日期:</label>
+      <input
+        id="date"
+        name="date"
+        type="date"
+        value="2021-01-01"
+        min="2021-01-01"
+        max="2022-06-30"
+      />
+
+      <br />
+      <br />
+      <label for="voice">聲音</label>
+      <input id="voice" name="voice" type="range" />
+      <br />
+      <br />
+      <button type="submit">提交</button>
+    </form>
+  </body>
+</html>

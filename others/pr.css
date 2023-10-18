@@ -1,0 +1,26 @@
+div.content {
+  background-color: cornflowerblue;
+  width: 500px;
+  height: 500px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: gold;
+  position: relative;
+  animation: thing 2s ease-in forwards;
+}
+
+@keyframes thing {
+  from {
+    background-color: gold;
+    top: 0;
+    left: 0;
+  }
+  to {
+    background-color: brown;
+    top: 400px;
+    left: 400px;
+  }
+}

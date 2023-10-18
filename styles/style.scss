@@ -1,0 +1,18 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+$themecolor: #fec3ca;
+
+@import "./header";
+
+@mixin flexbox($direction) {
+  display: flex;
+  flex-direction: $direction;
+}
+
+div.link {
+  @include flexbox(column);
+}

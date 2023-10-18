@@ -1,0 +1,9 @@
+header {
+  background-color: burlywood;
+  h1 {
+    color: $themecolor;
+  }
+  &:hover {
+    background-color: darkcyan;
+  }
+}

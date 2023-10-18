@@ -1,0 +1,50 @@
+* {
+  background-color: rgb(255, 236, 208);
+  font-family: "myFont", sans-serif;
+}
+
+@font-face {
+  font-family: "myFont";
+  src: url(./TaipeiSansTCBeta-Regular.ttf);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  color: blue;
+}
+
+h2 {
+  color: blueviolet;
+}
+
+.word1 {
+  font-size: 18px;
+  font-weight: 400;
+  border: 2px dashed green;
+}
+
+.word2 {
+  font-weight: lighter;
+}
+td {
+  text-align: center;
+}
+
+ul {
+  list-style-type: lower-roman;
+}
+
+th,
+td {
+  padding: 0.5rem 0.8rem;
+}
+
+table,
+th,
+td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}

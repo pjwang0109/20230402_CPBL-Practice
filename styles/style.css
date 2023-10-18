@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(125, 216, 247);
+  margin: 20px 0;
+}
+header h1 {
+  color: #fb5661;
+}
+header:hover {
+  background-color: rgb(231, 234, 163);
+}
+
+div.link {
+  display: flex;
+  flex-direction: column;
+} 
+
+.rakuten{
+  margin-right: 30px;
+}
+
+#i {
+  margin: 10px 0 15px;
+}
+
+#b,
+#c,
+#d,
+#e {
+  margin: 20px 0;
+}
+
+#f {
+  margin-bottom: 15px;
+  color: #fa0;
+}
